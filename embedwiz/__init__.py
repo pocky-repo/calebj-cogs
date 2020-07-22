@@ -1,4 +1,4 @@
-from .embedwizV3 import embedwizV3
+from .embedwiz import embedwiz
 
 def setup(bot):
-	bot.add_cog(embedwizV3(bot))
+	bot.add_cog(embedwiz(bot))
